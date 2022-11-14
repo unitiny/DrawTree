@@ -1,7 +1,19 @@
-# Vue 3 + Vite
+## 主要功能
+ 
+传入数据生成树状图
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 安装
 
-## Recommended IDE Setup
+```cmd
+npm install
+npm install vue
+npm install vuex
+npm install file-saver
+npm install element-plus
+```
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+## 运行 
+
+```cmd
+npm run dev
+```
