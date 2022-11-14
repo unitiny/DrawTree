@@ -1,0 +1,107 @@
+$primary: #409EFF;
+$background: #242424;
+$light-font-color: #606266;
+$white-font-color: #ffffff;
+
+.el-backtop {
+  background: #2f2f2e;
+}
+
+.el-row {
+  margin: 20px 0;
+}
+
+.el-row:last-child {
+  margin-bottom: 0;
+}
+
+.button {
+  background: $background;
+}
+
+.button:hover, .button:focus {
+  background: $primary;
+}
+
+.upload-demo {
+  position: relative;
+  height: 200px;
+  border: 1px solid $primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.el-upload {
+  width: 100%;
+}
+
+.el-textarea__inner {
+  font-size: 20px;
+  color: skyblue !important;
+}
+
+.el-divider {
+  height: 40px;
+  top: 50px;
+  margin: 30px 0;
+  position: relative;
+}
+
+.el-switch {
+  --el-switch-on-color: var(--el-color-primary);
+  --el-switch-off-color: #dcdfe6 !important;
+}
+
+.el-collapse {
+  border-top: 1px solid $light-font-color;
+}
+
+.el-collapse-item__header {
+  color: $white-font-color !important;
+  border-bottom: 1px solid $light-font-color;
+}
+
+.el-collapse-item__content {
+  color: $white-font-color !important;
+}
+
+:deep(.el-upload-dragger) {
+  background: $background;
+  border: 0;
+  width: 100%;
+}
+
+:deep(.el-textarea__inner) {
+  background: $background;
+  border: 1px solid $primary;
+  box-shadow: none;
+  color: $light-font-color;
+}
+
+:deep(.el-input__wrapper) {
+  border: 1px solid $primary !important;
+}
+
+.el-divider__text {
+  background: $background !important;
+}
+
+.el-button.is-text {
+  color: $primary;
+}
+
+.el-dialog {
+  background: #282828;
+  .el-dialog__title, .el-dialog__body {
+    color: #ffffff;
+  }
+}
+
+.scrollbar-flex-content {
+  position: relative;
+  top: 20px;
+  display: flex;
+  font-size: 40px;
+}
