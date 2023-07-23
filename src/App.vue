@@ -1,10 +1,7 @@
 <script setup>
-import * as file from "./controller/file"
 import * as tree from "./controller/tree"
 import store from "./store"
-import * as utils from "./utils/index.js"
-import {Order} from "./global/const.js";
-import {nextTick, onMounted, reactive, ref, watch} from "vue"
+import {nextTick, onMounted, ref, watch} from "vue"
 import {ElMessage} from 'element-plus'
 import Dialog from "./components/dialog.vue"
 import Tree from "./components/tree.vue"
@@ -96,7 +93,6 @@ watch(
       <el-link><a href="https://github.com/unitiny/DrawTree">源码</a></el-link>
     </el-col>
   </el-row>
-
   <div class="main">
     <Data></Data>
 
@@ -127,13 +123,14 @@ watch(
 </template>
 
 <style scoped lang="scss">
-@import "./assets/index.scss";
+//@import "./assets/index.scss";
 
-.header  {
+.header {
   top: -20px;
   height: 40px;
   display: flex;
   align-items: center;
+
   .tag {
     display: flex;
     justify-content: flex-end;

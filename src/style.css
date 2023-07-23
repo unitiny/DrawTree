@@ -15,15 +15,15 @@
     -webkit-text-size-adjust: 100%;
 
     /* 自定义主题颜色 */
-    --el-bg-color-overlay: #242424 !important;
-    --el-input-bg-color: #242424 !important;
-    --el-fill-color-blank: #242424 !important;
-    --el-fill-color-light: #242424 !important;
-    --el-bg-color: #409EFF !important;
-    --el-border-color: #409EFF !important;
-    --el-collapse-content-text-color: #ffffff;
-    --el-collapse-border-color: #242424 !important;
-    --el-switch-off-color: #ffffff !important;
+    /*--el-bg-color-overlay: #242424 !important;*/
+    /*--el-input-bg-color: #242424 !important;*/
+    /*--el-fill-color-blank: #242424 !important;*/
+    /*--el-fill-color-light: #242424 !important;*/
+    /*--el-bg-color: #409EFF !important;*/
+    /*--el-border-color: #409EFF !important;*/
+    /*--el-collapse-content-text-color: #ffffff;*/
+    /*--el-collapse-border-color: #242424 !important;*/
+    /*--el-switch-off-color: #ffffff !important;*/
 }
 
 a {
